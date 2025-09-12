@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body class="" id="body">
+    <nav
+      class="bg-gray-100 flex items-center justify-between py-2 px-4 gap-50 shadow-md"
+    >
+      <!-- Navbar nameBrand -->
+      <div class="brand font-bold text-[clamp(20px,2vw,30px)] ps-8">
+        RAY - CODE
+      </div>
+      <!-- Nav links -->
+      <ul class="links flex space-x-6 pe-5 max-md:hidden">
+        <a href="#" class="hover:text-gray-500">Home</a>
+        <a href="#" class="hover:text-gray-500">About</a>
+        <a href="#" class="hover:text-gray-500">Projects</a>
+        <a href="#" class="hover:text-gray-500">Contacts</a>
+      </ul>
+     
+
+      <!-- Hamburger button to toggle the menu -->
+       <button id="ham-btn" class="  md:hidden text-3xl me-5 cursor-pointer">&#9776</button>
+
+    </nav>  <!--end of navbar -->
+
+
+    <!-- Main -->
+    <main class="">
+      <section
+        class="mt-5 max-sm:mt-1 grid sm:grid-cols-1 md:grid-cols-2 gap-10 ps-8 md:ps-15  "
+      >
+        <div class="typography ">
+          <p class="text-[clamp(30px,6vw,60px)] mt-50 max-sm:mt-10 max-sm:">
+            Hi There, I'm
+            <span class="font-bold text-purple-600">MESSI 🐐</span>
+          </p>
+          <p class="text-2xl text-gray-500 font-bold">The Greatest Of All Time</p>
+          <p class="text-gray-500 text-lg">
+            The most decorated footballer of all time <br />Feel free to explore
+            more on my page. This website was created by Raymond, an aspiring
+            FrontEnd Developer...
+          </p>
+          <div class="buttons mt-8 space-x-6">
+            <button
+              class="bg-purple-600 p-2 rounded-lg text-white cursor-pointer hover:opacity-[0.8]"
+            >
+              Hire Me
+            </button>
+            <button
+              class="outline p-2 rounded-lg text-purple-600 cursor-pointer"
+            >
+              See Career Stats
+            </button>
+          </div>
+        </div>
+
+        <div class="img-div">
+          <img src="messi.jpg" alt="" class="w-100 max-sm:w-50 max-sm:container mx-auto" />
+        </div>
+      </section>   
+      
+      <!-- Menu to display links in horizontal way -->
+
+<!-- transform → enables transform utilities (translate, rotate, scale, etc.).
+
+-translate-x-full → shifts the menu 100% to the left, hiding it completely off-screen.
+
+transition-transform → only animate changes to the transform property (like translate).
+
+duration-300 → sets the animation speed to 300ms.
+
+ease-in-out → gives a smooth start and end to the animation. -->
+
+
+
+
+
+
+<div class="bg-white fixed top-0 left-0 transform -translate-x-full transition-transform duration-300 ease-in-out inset-0" id="menu">
+  <button class="absolute top-5 right-8 text-2xl cursor-pointer" id="close-btn">❌</button>
+  <ul class="block space-y-6 pe-5 text-center py-20">
+    <li><a href="#" class="hover:text-gray-500">Home</a></li>
+    <li><a href="#" class="hover:text-gray-500">About</a></li>
+    <li><a href="#" class="hover:text-gray-500">Projects</a></li>
+    <li><a href="#" class="hover:text-gray-500">Contacts</a></li>
+  </ul>
+</div>
+
+
+
+      <!-- Second Section -->
+
+<section class=" bg-blue-600 ">
+hello
+ </section>  <!--bug is here -->
+
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
