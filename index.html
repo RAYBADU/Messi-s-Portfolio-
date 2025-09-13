@@ -3,12 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>MESSI PORTFOLIO[GRID]</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body class="" id="body">
     <nav
-      class="bg-gray-100 flex items-center justify-between py-2 px-4 gap-50 shadow-md"
+      class="bg-[#dddddf] flex items-center justify-between py-2 px-4 gap-50 shadow-md"
     >
       <!-- Navbar nameBrand -->
       <div class="brand font-bold text-[clamp(20px,2vw,30px)] ps-8">
@@ -76,12 +76,7 @@ duration-300 → sets the animation speed to 300ms.
 
 ease-in-out → gives a smooth start and end to the animation. -->
 
-
-
-
-
-
-<div class="bg-white fixed top-0 left-0 transform -translate-x-full transition-transform duration-300 ease-in-out inset-0" id="menu">
+<div class="bg-[#dddddf] fixed top-0 left-0 transform -translate-x-full transition-transform duration-300 ease-in-out inset-0" id="menu">
   <button class="absolute top-5 right-8 text-2xl cursor-pointer" id="close-btn">❌</button>
   <ul class="block space-y-6 pe-5 text-center py-20">
     <li><a href="#" class="hover:text-gray-500">Home</a></li>
@@ -95,9 +90,40 @@ ease-in-out → gives a smooth start and end to the animation. -->
 
       <!-- Second Section -->
 
-<section class=" bg-blue-600 ">
-hello
- </section>  <!--bug is here -->
+<section class=" bg-[#3f4044]  pt-5 ">
+<p class="header text-center text-4xl pb-4 font-bold text-[#dddddf] ">ACHIEVEMENTS</p>
+<div class="cards container mx-auto ps-5 pe-5 grid place-items-center md:grid-cols-2 lg:grid-cols-4 gap-5  cursor-pointer">
+  <!-- first card -->
+  <div class="card max-w-md mt-5 bg-white h-auto rounded-xl transition ease-in-out duration-300 hover:scale-105 ">
+   <img src="ballon dor.jpg" alt="ballon" class=" object-cover mx-auto rounded-xl">
+   <p class="text-2xl text-[#3f4044] text-center font-bold mt-2">BALLON D'OR ⚽</p>
+   <p class="p-4">Lionel Messi has won the Ballon d’Or a record 8 times, making him the player with the most wins in football history. His victories came in 2009, 2010, 2011, 2012, 2015, 2019, 2021, and 2023.
+
+.</p>
+  </div>
+<!-- Second card -->
+  <div class="card max-w-md mt-5 bg-white h-auto rounded-xl transition ease-in-out duration-300 hover:scale-105">
+   <img src="ucl.jpg" alt="ballon" class=" object-cover mx-auto rounded-xl ">
+   <p class="text-2xl text-[#3f4044] text-center font-bold mt-2">UEFA Champions League 🏆</p>
+   <p class="p-4">Messi won the Champions League four times with FC Barcelona (2006, 2009, 2011, 2015). He played a key role in their dominance, scoring in two finals (2009 vs. Manchester United and 2011 vs. Manchester United)
+.</p>
+  </div>
+  <!-- Third Card -->
+  <div class="card max-w-md mt-5 bg-white h-auto rounded-xl transition ease-in-out duration-300 hover:scale-105">
+   <img src="copa.jpg" alt="ballon" class=" object-cover mx-auto rounded-xl">
+   <p class="text-2xl text-[#3f4044] text-center font-bold mt-2">Copa América 🏆</p>
+   <p class="p-4">After several near misses, Messi finally lifted the Copa América in 2021, leading Argentina to victory over Brazil in the final. He was named Best Player of the Tournament, proving his leadership and skill on the international stage.</p>
+  </div>
+  <!-- Fourth card -->
+  <div class="card max-w-md mt-5 bg-white h-auto rounded-xl transition ease-in-out duration-300 hover:scale-105">
+   <img src="worldcup.jpg" alt="ballon" class=" object-cover mx-auto rounded-xl">
+   <p class="text-2xl text-[#3f4044] text-center font-bold mt-2">FIFA World Cup 🌍</p>
+   <p class="p-4">Messi crowned his legendary career by winning the 2022 World Cup in Qatar, captaining Argentina to glory in an epic final against France. He won the Golden Ball (Best Player) for his outstanding performances.</p>
+  </div>
+</div>
+
+
+ </section>  
 
     </main>
     <script src="app.js"></script>
